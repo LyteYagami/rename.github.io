@@ -1474,7 +1474,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: 200;
+		font-weight: 300;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
 	}
@@ -1493,13 +1493,15 @@
 		}
 
 	h1 {
-		font-size: 1.75em;
+		font-size: 2.15em;
+		font-weight: bold;
+		color: red;
 	}
 
 		@media screen and (max-width: 980px) {
 
 			h1 {
-				font-size: 1.5em;
+				font-size: 2em;
 				box-shadow: 2px;
 			}
 
@@ -1508,19 +1510,19 @@
 		@media screen and (max-width: 736px) {
 
 			h1 {
-				font-size: 1.25em;
+				font-size: 1.75em;
 			}
 
 		}
 
 	h2 {
-		font-size: 1.35em;
+		font-size: 1.75em;
 	}
 
 		@media screen and (max-width: 736px) {
 
 			h2 {
-				font-size: 1em;
+				font-size: 1.35em;
 			}
 
 		}
@@ -2589,7 +2591,7 @@
 	}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.65);
+			color: rgba(209, 167, 89, 0.836);
 		}
 
 		#header .avatar {
@@ -2637,3 +2639,5 @@
 			}
 
 		}
+
+		
